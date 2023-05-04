@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/School/).join
+reg_a = /School/
+puts ARGV[0].scan(reg_a).join
